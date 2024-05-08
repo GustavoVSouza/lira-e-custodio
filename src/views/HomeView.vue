@@ -2,15 +2,17 @@
   <main>
     <img class="banner" src="../assets/img/imageBannerEdit1.jpg" />
     <section class="content">
-      <div class="flex flex-col md:flex-row gap-5 h-auto">
+      <div class="flex flex-col lg:flex-row gap-5 h-auto py-5">
         <div :class="['blocoCard', { 'text-lg': isLargeScreen }]">
           <p class="text-white fontSerif text-3xl">Nos acompanhe no Instagram:</p>
-          <a href="https://www.instagram.com/liraecustodioadvogados/" target="_blank"><img class="iconeInstagram" alt="Ícone Instagram" src="@\assets\img\logoInstagram.png"></a>
+          <a href="https://www.instagram.com/liraecustodioadvogados/" target="_blank"><img class="iconeInstagram"
+              alt="Ícone Instagram" src="@\assets\img\logoInstagram.png"></a>
         </div>
         <div :class="['blocoCard', { 'text-lg': isLargeScreen }]">
           <p class="text-white">{{ dataAtual }}</p>
           <p class="text-white fontSerif text-[2em] leading-normal"><a
-              href="https://www.jusbrasil.com.br/noticias/construtora-deve-pagar-dano-moral-por-atraso-na-entrega-de-imovel/1366578070" target="_blank">Construtora
+              href="https://www.jusbrasil.com.br/noticias/construtora-deve-pagar-dano-moral-por-atraso-na-entrega-de-imovel/1366578070"
+              target="_blank">Construtora
               deve pagar dano moral por atraso na entrega de imóvel</a></p>
         </div>
       </div>
@@ -86,9 +88,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 1.5em;
-  margin: 3em;
   max-width: 260px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .content {
