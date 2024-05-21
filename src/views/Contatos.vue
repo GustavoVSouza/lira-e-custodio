@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="container mx-auto mb-12 p-10">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+      <div class="flex justify-center">
         <div class="contato-card">
           <h2 class="text-xl font-semibold mb-2">Moacir Custódio de Souza</h2>
           <div class="flex items-center mb-2">
@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        <div class="contato-card">
+        <!-- <div class="contato-card">
           <h2 class="text-xl font-semibold mb-2">Danilo Porto Silva</h2>
           <div class="flex items-center mb-2">
             <p class="text-gray-600">danilo@liraecustodio.com.br</p>
@@ -20,7 +20,7 @@
           <div class="flex items-center">
             <p class="text-gray-600">+55 11 98371-6216</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>

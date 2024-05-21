@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="lawyer-card">
+    <!-- <div class="lawyer-card">
       <div class="image-container">
         <img src="../assets/img/danilo.png" alt="Foto de Danilo Porto Silva" />
       </div>
@@ -25,7 +25,7 @@
         <p>Pós-graduado em Direito Processual Civil, com especializações em Direito Civil, Trabalhista e do Consumidor;
         </p>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 

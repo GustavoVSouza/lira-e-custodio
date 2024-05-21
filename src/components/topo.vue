@@ -6,7 +6,7 @@
     </div>
   </header>
   <nav class="bg-[#997F61] font">
-    <ul class="flex gap-[3em] justify-center items-center py-2 flex-wrap">
+    <ul class="flex gap-5 md:gap-[3em] justify-center items-center py-2 flex-wrap">
       <li>
         <RouterLink class="text-white tracking-[.3em] py-2 text-md" to="/">home</RouterLink>
       </li>
